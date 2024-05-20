@@ -66,7 +66,7 @@ header {
 }
 
 #w-header {
-    background: url("images/header-bg.png") repeat-x scroll center center transparent;
+    background: url("/public/Images/header-bg.png") repeat-x scroll center center transparent;
     height: 185px;
     margin: 0 auto;
     width: 1203px;
@@ -107,7 +107,7 @@ header {
     float: left;
     padding: 0 9px 0 7px;
     color: #ffffff;
-    background: url("images/m-top-border.png") no-repeat scroll right 6px transparent;
+    background: url("/public/Images/m-top-border.png") no-repeat scroll right 6px transparent;
 }
 
 #w-header .w-h-top ul li a {
@@ -125,7 +125,7 @@ header {
 }
 
 #w-header .w-h-left a {
-    background: url("images/logo.png") no-repeat scroll center transparent;
+    background: url("/public/Images/logo.PNG") no-repeat scroll center transparent;
     cursor: pointer;
     display: block;
     height: 90px;
@@ -164,7 +164,7 @@ header {
 }
 
 #w-header .w-h-center .w-h-c-search input[type="submit"] {
-    background: transparent url("images/btn-search.png") no-repeat scroll center;
+    background: transparent url("/public/Images/btn-search.png") no-repeat scroll center;
     border: medium none;
     color: #ffffff;
     cursor: pointer;
@@ -187,7 +187,7 @@ header {
 #w-header .wh-call {
     float: left;
     display: block;
-    background: url("images/support-phone.png") no-repeat scroll -16px top transparent;
+    background: url("/public/Images/support-phone.png") no-repeat scroll -16px top transparent;
     width: 550px;
     height: 51px;
     padding-left: 120px;
@@ -222,7 +222,7 @@ header {
 
 #w-header .w-h-right ul li a.support-phone {
     display: block;
-    background: url("images/support-phone.png") no-repeat scroll -16px top transparent;
+    background: url("/public/Images/support-phone.png") no-repeat scroll -16px top transparent;
     width: 550px;
     height: 51px;
     padding-left: 120px;
@@ -247,7 +247,7 @@ header {
 
 #w-header .w-h-right ul li a.icon-cart {
     display: block;
-    background: url("images/icon-cart.png") no-repeat scroll top left transparent;
+    /* background: url("images/icon-cart.png") no-repeat scroll top left transparent; */
     margin-left: 15px;
     width: 47px;
     height: 49px;
@@ -284,7 +284,7 @@ nav#w-menu ul.menu-pc {
 }
 
 nav#w-menu ul.menu-pc li.m-pc-root {
-    background: url("images/menu-border.png") no-repeat scroll left 10px transparent;
+    background: url("/public/Images/menu-border.png") no-repeat scroll left 10px transparent;
     float: left;
     height: 45px;
 }
@@ -326,7 +326,7 @@ nav#w-menu ul.menu-pc li.m-pc-root a.m-pc-r-a {
 nav#w-menu ul.menu-pc li.m-pc-root:last-child a.m-pc-r-a {}
 
 nav#w-menu ul.menu-pc li.m-pc-root a.m-pc-r-a i {
-    background: url("images/menu-hover.png") no-repeat scroll center top transparent;
+    /* background: url("images/menu-hover.png") no-repeat scroll center top transparent; */
     border: 0 none;
     display: none;
     height: 9px;
@@ -451,7 +451,7 @@ ul.menu-pc-lv1 li.m-pc-r-1:nth-child(1) ul.menu-pc-lv2 li.m-pc-r-2 a:hover {
 ----------------------------------------------------------*/
 
 #menu-shadow {
-    background: url("images/menu-shadow.png") repeat-x scroll top left transparent;
+    background: url("/public/Images/menu-shadow.png") repeat-x scroll top left transparent;
     height: 16px;
     width: 100%;
 }
@@ -589,19 +589,19 @@ ul.ps-bs-list li p.ps-bs-l-options {
 }
 
 ul.ps-bs-list li p.ps-bs-l-option-1 {
-    background: transparent url("images/p-option-gift.png") no-repeat scroll center;
+    /* background: transparent url("images/p-option-gift.png") no-repeat scroll center; */
     width: 47px;
     height: 52px;
 }
 
 ul.ps-bs-list li p.ps-bs-l-option-2 {
-    background: transparent url("images/p-option-bestsell.png") no-repeat scroll center;
+    /* background: transparent url("images/p-option-bestsell.png") no-repeat scroll center; */
     width: 45px;
     height: 45px;
 }
 
 ul.ps-bs-list li p.ps-bs-l-option-3 {
-    background: transparent url("images/p-option-new.png") no-repeat scroll center;
+    /* background: transparent url("images/p-option-new.png") no-repeat scroll center; */
     width: 53px;
     height: 53px;
 }
@@ -696,7 +696,7 @@ section {
 ----------------------------------------------------------*/
 
 #partners {
-    background: url("images/partners-bg.png") repeat-x scroll top left transparent;
+    background: url("/public/Images/partners-bg.png") repeat-x scroll top left transparent;
     height: 91px;
     width: 100%;
 }
@@ -811,21 +811,21 @@ footer#w-footer {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("images/icon-face.png") no-repeat scroll top left transparent;
+    background: url("/public/Images/icon-face.png") no-repeat scroll top left transparent;
 }
 
 .w-f-right .w-f-r-right ul li a.connect-gl {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("images/icon-google.png") no-repeat scroll top left transparent;
+    /* background: url("images/icon-google.png") no-repeat scroll top left transparent; */
 }
 
 .w-f-right .w-f-r-right ul li a.connect-yt {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("images/icon-youtube.png") no-repeat scroll top left transparent;
+    background: url("/public/Images/icon-youtube.png") no-repeat scroll top left transparent;
 }
 
 /* Footer LinkHot
@@ -884,7 +884,7 @@ footer#w-footer {
     height: 100%;
     margin: 0 auto;
     text-shadow: 1px 1px 1px #000;
-    background: url("images2021/call-icon.png") no-repeat scroll 0 top transparent;
+    /* background: url("images2021/call-icon.png") no-repeat scroll 0 top transparent; */
     padding-left: 40px;
 }
 
@@ -1025,7 +1025,7 @@ ul#pagination>.active>span:focus {
 ----------------------------------------------------------*/
 
 .box-promotion {
-    background: url("images-promotion/box_overlay.png") repeat scroll 0 0 transparent;
+    /* background: url("images-promotion/box_overlay.png") repeat scroll 0 0 transparent; */
     display: none;
     left: 0;
     overflow: hidden;
@@ -1056,7 +1056,7 @@ ul#pagination>.active>span:focus {
 }
 
 .box-promotion .box-promotion-item a.box-promotion-close {
-    background: url("images-promotion/delete-large.png") no-repeat scroll 0 0 transparent;
+    /* background: url("images-promotion/delete-large.png") no-repeat scroll 0 0 transparent; */
     position: absolute;
     z-index: 98;
     right: -29px;
@@ -1194,52 +1194,52 @@ ul#pagination>.active>span:focus {
 }
 
 .p-s-0 {
-    background: url("images-price/0x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/0x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-1 {
     width: 16px;
-    background: url("images-price/1x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/1x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-2 {
     width: 23px;
-    background: url("images-price/2x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/2x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-3 {
-    background: url("images-price/3x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/3x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-4 {
-    background: url("images-price/4x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/4x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-5 {
-    background: url("images-price/5x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/5x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-6 {
-    background: url("images-price/6x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/6x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-7 {
     width: 20px;
-    background: url("images-price/7x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/7x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-8 {
-    background: url("images-price/8x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/8x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-9 {
     width: 23px;
-    background: url("images-price/9x42.png") no-repeat scroll center transparent;
+    /* background: url("images-price/9x42.png") no-repeat scroll center transparent; */
 }
 
 .p-s-dot {
     width: 11px;
-    background: url("images-price/.x42.png") no-repeat scroll left bottom transparent;
+    /* background: url("images-price/.x42.png") no-repeat scroll left bottom transparent; */
     left: -10px;
 }
 
@@ -1256,7 +1256,7 @@ ul#pagination>.active>span:focus {
 }
 
 .p-s-dash {
-    background: url("images-price/.-x42.png") no-repeat scroll left bottom transparent;
+    /* background: url("images-price/.-x42.png") no-repeat scroll left bottom transparent; */
     width: 20px;
 }
 
@@ -1383,56 +1383,56 @@ ul#pagination>.active>span:focus {
 
 .p-l-0 {
     width: 33px;
-    background: url("images-price/0x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/0x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-1 {
     width: 23px;
-    background: url("images-price/1x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/1x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-2 {
-    background: url("images-price/2x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/2x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-3 {
-    background: url("images-price/3x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/3x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-4 {
-    background: url("images-price/4x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/4x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-5 {
-    background: url("images-price/5x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/5x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-6 {
-    background: url("images-price/6x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/6x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-7 {
     width: 28px;
-    background: url("images-price/7x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/7x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-8 {
     width: 31px;
-    background: url("images-price/8x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/8x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-9 {
     width: 33px;
-    background: url("images-price/9x60.png") no-repeat scroll center transparent;
+    /* background: url("images-price/9x60.png") no-repeat scroll center transparent; */
 }
 
 .p-l-dot {
     width: 15px;
-    background: url("images-price/.x60.png") no-repeat scroll left bottom transparent;
+    /* background: url("images-price/.x60.png") no-repeat scroll left bottom transparent; */
 }
 
 .p-l-dash {
-    background: url("images-price/.-x60.png") no-repeat scroll left bottom transparent;
+    /* background: url("images-price/.-x60.png") no-repeat scroll left bottom transparent; */
     width: 25px;
 }
 

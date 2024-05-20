@@ -76,11 +76,16 @@ const Home = () => {
                     product,
                   ],
                 };
+                const temp = {
+                  ...product,
+                  category: category,
+                  subCategory: subCategory,
+                };
                 setHomeProduct((pre) => ({
                   ...pre,
                   [product.Manufacturer]: [
                     ...pre[product.Manufacturer],
-                    product,
+                    temp,
                   ],
                 }));
               }

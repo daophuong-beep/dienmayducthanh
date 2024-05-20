@@ -8,6 +8,7 @@ const PsHome = ({
   linkTag4 = "",
   linkTag5 = "",
 }) => {
+  console.log(data, "data");
   return (
     
         <div className="ps-home">
