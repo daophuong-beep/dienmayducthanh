@@ -23,8 +23,8 @@ ul.path-product li {
   float: left;
   margin-right: 7px;
   padding: 0 14px 0 0;
-  background: url("/public/Images/arrow-spec-icon.png") no-repeat scroll right center
-    transparent;
+  background: url("/public/Images/arrow-spec-icon.png") no-repeat scroll right
+    center transparent;
 }
 
 ul.path-product li:last-child {
@@ -130,8 +130,8 @@ ul.path-product li span {
 
 #w-productlist .w-pl-left .filter-product ul.f-p-brand li a,
 #w-productlist .w-pl-left .filter-product ul.f-p-price li a {
-  background: url("/public/Images/arrow-spec-icon.png") no-repeat scroll 10px center
-    transparent;
+  background: url("/public/Images/arrow-spec-icon.png") no-repeat scroll 10px
+    center transparent;
   border-bottom: 1px dotted #e1e2e3;
   color: #231f20;
   display: block;
@@ -526,7 +526,8 @@ h1.w-pd-b-r-name {
 .pd-orders a {
   display: block;
   margin: 4px 0;
-  background: url("/public/Images/btn-orders.png") no-repeat scroll left top transparent;
+  background: url("/public/Images/btn-orders.png") no-repeat scroll left top
+    transparent;
   height: 37px;
   width: 148px;
 }
@@ -658,7 +659,7 @@ ul.w-pd-i-head li:last-child {
 ul.w-pd-i-head li a {
   background: url("/public/Images/w-pd-i-head-bg.png") no-repeat scroll center
     transparent;
-   
+
   color: #231f20;
   display: block;
   font: 14px/30px Tahoma, Arial;
@@ -1275,39 +1276,118 @@ ul.ns-b-list li .ns-b-l-content a:hover {
 }
 
 .ps-h-head .m-by-brand {
-    float: left;
-    max-width: 66%;
+  float: left;
+  max-width: 66%;
 }
 
 .ps-h-head .m-by-brand li a {
-    font: 15px / 30px Arial;
-    color: #3a5795;
-    text-transform: none;
+  font: 15px / 30px Arial;
+  color: #3a5795;
+  text-transform: none;
 }
 
 .ps-h-head .m-by-brand li:nth-child(2n) {
-    font: 12px / 30px Arial;
-    color: #333333;
-    margin: 0 1px;
+  font: 12px / 30px Arial;
+  color: #333333;
+  margin: 0 1px;
 }
 
 .ps-h-head .m-by-brand li:last-child {
-    display: none;
+  display: none;
 }
 
 .ps-h-list {
-    display: inline-block;
-    margin: 16px 0;
+  display: inline-block;
+  margin: 16px 0;
 }
 
 .li_item_home {
-    list-style-type: none;
-    position: relative;
-    background-color: #ffffff;
-    border-right: 1px solid #eeeff0;
-    float: left;
-    overflow: hidden;
-    padding: 2px 31px 0;
-    width: 237px;
-    height: 275px;  
+  list-style-type: none;
+  position: relative;
+  background-color: #ffffff;
+  border-right: 1px solid #eeeff0;
+  float: left;
+  overflow: hidden;
+  padding: 2px 31px 0;
+  width: 237px;
+  height: 275px;
+}
+
+.left_filter_p {
+  float: left;
+  width: 226px;
+}
+
+.filter-product-wrapper {
+  margin: 11px 0 0;
+  border: 1px solid #d7d8da;
+  width: 214px;
+  padding: 5px;
+  background-color: #f1f1f2;
+}
+
+.filter-options-head {
+  background-color: #29aae2;
+  color: #ffffff;
+  display: block;
+  font: bold 14px / 39px Tahoma, Arial;
+  height: 39px;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.list-filter-options {
+}
+
+.filter-option {
+  display: block;
+  color: #ff0000;
+}
+
+.filter-option-link {
+  background: url("/public/Images/arrow-spec-icon.png") no-repeat scroll left
+    10px center transparent;
+  border-bottom: 1px dotted #e1e2e3;
+  color: #231f20;
+  display: block;
+  font: 12px / 30px Tahoma, Arial;
+  padding: 0 0 0 25px;
+}
+
+.filter-option:active .filter-option-link {
+  color: #27aae1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.filter-option-link:hover {
+  color: #27aae1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.right_filter_p {
+  float: right;
+  width: 963px;
+}
+
+.order-by-box-wrapper {
+  float: right;
+  margin: 14px 0 0;
+}
+
+.list_product_filter {
+  position: relative;
+  background-color: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  border-bottom: 1px solid #eeeff0;
+  border-right: 1px solid #eeeff0;
+  float: left;
+  overflow: hidden;
+  padding: 9px 5px;
+  width: 228px;
+  height: 274px;
+  margin: 0 0;
 }

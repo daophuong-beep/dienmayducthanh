@@ -24,10 +24,10 @@ function DetailProduct() {
       }
     })
   },[catagory, code, subCatagory])
-  console.log('dataProduct',dataProduct);
+
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <section>
 
         <div className="cl">
@@ -91,7 +91,7 @@ function DetailProduct() {
         </div>
 
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

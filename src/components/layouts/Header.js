@@ -33,9 +33,9 @@ const Header = () => {
             </ul>
           </div>
           <div className="cl"></div>
-          <div className="w-h-left">
-            <a href="/" rel="nofollow" title="Trang chủ"></a>
-          </div>
+            {/* <div className="w-h-left">
+              <a href="/" rel="nofollow" title="Trang chủ"></a>
+            </div> */}
           <div className="w-h-center">
             <div className="w-h-c-search">
               <form action="/tim-kiem" method="get">
@@ -74,6 +74,45 @@ const Header = () => {
           <div className="cl"></div>
           <nav id="w-menu" className="w-menu">
             <ul className="l menu-pc">
+            <li className="m-pc-root">
+                <p className="m-pc-r-img">
+                  <a href="/dieu-hoa-gia-re/">
+                    <img
+                      src="/Images/Menu/dieu-hoa-YY6qaB.png"
+                      alt="Điều h&#242;a"
+                    />
+                  </a>
+                </p>
+                <a className="m-pc-r-a m-pc-i-0-0" href="/dieu-hoa-gia-re/">
+                  Điều hòa Nhật
+                  <i></i>
+                </a>
+              </li>
+              <li className="m-pc-root">
+                <p className="m-pc-r-img">
+                  <a href="/gia-dung/">
+                    <img
+                      src="/Images/Menu/binh-nong-lanh-MJ9l2x.png"
+                      alt="Gia dụng"
+                    />
+                  </a>
+                </p>
+                <a className="m-pc-r-a m-pc-i-0-0" href="/gia-dung/">
+                  Gia dụng Nhật
+                  <i></i>
+                </a>
+              </li>
+              <li className="m-pc-root">
+                <p className="m-pc-r-img">
+                  <a href="/tivi/">
+                    <img src="/Images/Menu/tivi-47y5S8.png" alt="Tivi" />
+                  </a>
+                </p>
+                <a className="m-pc-r-a m-pc-i-0-0" href="/tivi/">
+                  Lọc nước kiềm
+                  <i></i>
+                </a>
+              </li>
               <li className="m-pc-root">
                 <p className="m-pc-r-img">
                   <a href="/dieu-hoa/">
@@ -102,7 +141,7 @@ const Header = () => {
                   <i></i>
                 </a>
               </li>
-              <li className="m-pc-root">
+              {/* <li className="m-pc-root">
                 <p className="m-pc-r-img">
                   <a href="/dieu-hoa-noi-ong-gio/">
                     <img
@@ -118,7 +157,7 @@ const Header = () => {
                   Điều hòa nối ống gió
                   <i></i>
                 </a>
-              </li>
+              </li> */}
               <li className="m-pc-root">
                 <p className="m-pc-r-img">
                   <a href="/dieu-hoa-tu-dung/">
@@ -133,20 +172,7 @@ const Header = () => {
                   <i></i>
                 </a>
               </li>
-              <li className="m-pc-root">
-                <p className="m-pc-r-img">
-                  <a href="/dieu-hoa-gia-re/">
-                    <img
-                      src="/Images/Menu/dieu-hoa-YY6qaB.png"
-                      alt="Điều h&#242;a"
-                    />
-                  </a>
-                </p>
-                <a className="m-pc-r-a m-pc-i-0-0" href="/dieu-hoa-gia-re/">
-                  Điều hòa
-                  <i></i>
-                </a>
-              </li>
+
               <li className="m-pc-root">
                 <p className="m-pc-r-img">
                   <a href="/may-giat/">
@@ -175,20 +201,7 @@ const Header = () => {
                   <i></i>
                 </a>
               </li>
-              <li className="m-pc-root">
-                <p className="m-pc-r-img">
-                  <a href="/gia-dung/">
-                    <img
-                      src="/Images/Menu/binh-nong-lanh-MJ9l2x.png"
-                      alt="Gia dụng"
-                    />
-                  </a>
-                </p>
-                <a className="m-pc-r-a m-pc-i-0-0" href="/gia-dung/">
-                  Gia dụng
-                  <i></i>
-                </a>
-              </li>
+       
               <li className="m-pc-root">
                 <p className="m-pc-r-img">
                   <a href="/dien-lanh/">
@@ -203,17 +216,7 @@ const Header = () => {
                   <i></i>
                 </a>
               </li>
-              <li className="m-pc-root">
-                <p className="m-pc-r-img">
-                  <a href="/tivi/">
-                    <img src="/Images/Menu/tivi-47y5S8.png" alt="Tivi" />
-                  </a>
-                </p>
-                <a className="m-pc-r-a m-pc-i-0-0" href="/tivi/">
-                  Tivi
-                  <i></i>
-                </a>
-              </li>
+            
             </ul>
           </nav>
         </div>

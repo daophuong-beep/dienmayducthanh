@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <>
+        <div>
             <div id="partners">
                 <div className="partners">
                     <ul className="l bn-by-ca">
@@ -103,7 +103,7 @@ const Footer = () => {
             <div className="cl"></div>
             <div className="g-ts"></div>
             <div className="cl"></div>
-        </>
+        </div>
     );
 }
 

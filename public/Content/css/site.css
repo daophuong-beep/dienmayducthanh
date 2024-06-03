@@ -66,7 +66,7 @@ header {
 }
 
 #w-header {
-    background: url("images/header-bg.png") repeat-x scroll center center transparent;
+    /* background: url("images/header-bg.png") repeat-x scroll center center transparent; */
     height: 185px;
     margin: 0 auto;
     width: 1203px;

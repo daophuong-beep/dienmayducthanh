@@ -101,7 +101,7 @@ const Home = () => {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="ps-bestsell">
         <div className="w-body">
           <p className="ps-bs-head">Sản phẩm bán chạy</p>
@@ -254,7 +254,7 @@ const Home = () => {
         />
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
